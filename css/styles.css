@@ -156,10 +156,10 @@ b.light-color{ color: #444; }
 4. RIGHT SECTION
 --------------------------------- */
 
-.right-section{ position: absolute; top: 0; bottom: 0; right: 0; width: 50%; background-size: cover; z-index: 1; }
+.right-section{ position: absolute; top: 0; bottom: 0; right: 0; width: 50%; background-size: cover; background-position: center; z-index: 1; }
 
 .right-section:after{ content:''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; z-index: -2;
-	opacity: .3; background: linear-gradient(to right, #23074d, #cc5333); }
+	opacity: .0; background: radial-gradient( circle 865px at 10% 20%, rgba(62,200,158,1) 0%, rgba(103,242,121,1) 91.7% ); }
 
 #rounded-countdown{ width: 80%; margin: 0 auto; }
 
